@@ -1,149 +1,89 @@
-# 🌸 Waguri OS
+# Waguri OS
 
-An anime-inspired desktop operating system built entirely with **HTML, CSS, and JavaScript**.
+Hey! Welcome to **Waguri OS**.
 
-Waguri OS recreates the experience of a real desktop operating system inside a web browser. It features a boot sequence, user login, draggable windows, a taskbar, desktop icons, wallpaper customization, a file explorer, a photo viewer, notifications, and much more.
+Waguri OS is a Web desktop that I made with HTML, CSS, and JavaScript. I wanted to see if I could make something that feels like an computer while still running completely in a web browser.
 
----
-
-# 📸 Preview
-
-![Waguri OS Desktop](desktop.png)
-
-> *The current Waguri OS desktop featuring the About Me app, File Explorer, Settings, Photo Viewer, live wallpaper support, and a Windows-inspired taskbar.*
+I'm still working on it, so there are definitely things that aren't perfect yet, but I'm adding more features as I go.
 
 ---
 
-## ✨ Features
+## What it can do right now
 
-- 🌸 Animated boot screen
-- 👤 Username setup with saved profile
-- 🖥️ Desktop environment
-- 📌 Windows-style taskbar
-- 🌸 Start Menu
-- 🪟 Draggable application windows
-- ⚙️ Settings application
-- 🎨 Wallpaper changer
-- 🖼️ Custom wallpaper upload
-- 📁 File Explorer
-- 🖼️ Photo Viewer
-- 🔔 Notification system
-- 🕒 Live clock
-- 👋 Dynamic greeting
-- 🗑️ Recycle Bin
-- ⌨️ Keyboard shortcuts
-- 🔊 Boot and shutdown sound support
-
----
-
-## 📸 Screenshots
-![Waguri OS Demo](ezgif-72922969175120fd.gif)
-
-### 🖥️ Desktop
-
-![Waguri OS Desktop](desktop.png)
-
-
-
-
-## 🚀 Getting Started
-
-### Requirements
-
-- Node.js 20+ *(optional, only if using a development server)*
-- Visual Studio Code *(recommended)*
-- Live Server Extension *(recommended)*
+- Boot screen
+- Username setup
+- Saves the username
+- Desktop
+- Taskbar
+- Start Menu
+- Draggable windows
+- Settings
+- Change wallpapers
+- Upload your own wallpaper
+- File Explorer
+- Photo Viewer
+- Notifications
+- Live clock
+- Changes the greeting depending on the time
+- Recycle Bin
+- Keyboard shortcuts
+- Boot and shutdown sounds
 
 ---
 
-## 📁 Project Structure
+### Desktop
 
-```text
-Waguri-OS/
+![Desktop](desktop.png)
 
-├── index.html
-├── style.css
-├── script.js
-├── Waguri.gif
-├── boot.mp3
-├── shutdown.mp3
-├── pink.jpg
-├── anime.jpg
-├── images/
-│   └── desktop.png
-└── README.md
-```
+More screenshots will be added as I add more stuff to Waguri OS.
 
 ---
 
-## ⚙️ Environment
+### What I use
 
-No environment variables are required.
+- Visual Studio Code
+- Live Server
 
-No database is required.
+## How I made it
 
-No backend server is required.
+Waguri OS is made with HTML, CSS, and JavaScript. I didn't use anything big for the desktop itself because I wanted to actually build the different parts myself.
 
----
+The windows are controlled with JavaScript, which lets me open, close, minimize, drag, and move them around. The wallpaper settings and username are also saved in the browser using Local Storage.
 
-## ▶️ Run
-
-If using Live Server:
-
-```text
-Right-click index.html
-
-↓
-
-Open with Live Server
-```
-
-Or simply open **index.html** in your browser.
+A lot of the project is basically me experimenting with what I can make a browser do and then adding another feature when I get an idea.
 
 ---
 
-## 🛠️ How It Works
+## Stuff I want to add
 
-Waguri OS is built entirely with vanilla HTML, CSS, and JavaScript without external frameworks.
+There are still a lot of things I want to try:
 
-Every desktop component, including the boot screen, taskbar, desktop, wallpaper manager, notifications, and application windows, is built from scratch.
+- Web Browser
+- Notepad
+- Music Player
+- Video Player
+- Calculator
+- Calendar
+- Search
+- Dark Mode
+- Folders
+- More themes
+- Terminal
+- App Store
+- Maybe some small games
 
-Windows are managed using reusable JavaScript functions that support opening, closing, minimizing, dragging, and z-index stacking. User preferences such as usernames and wallpapers are saved locally using the browser's Local Storage API, allowing the desktop to remember settings between sessions without requiring a backend server.
-
-This approach demonstrates how a desktop-style operating system can be recreated using standard web technologies while remaining lightweight and easy to extend.
-
----
-
-## 🔮 Future Plans
-
-- 🌐 Web Browser
-- 📝 Notepad
-- 🎵 Music Player
-- 🎥 Video Player
-- 🧮 Calculator
-- 📅 Calendar
-- 🔍 Search
-- 🌙 Dark Mode
-- 📂 Folder System
-- 🎨 Themes
-- 💻 Terminal
-- 📦 App Store
+This list will probably change because I keep getting more ideas while working on it.
 
 ---
 
-## 🙏 Credits
+## Credits
 
-Created by **Umi**
+Waguri OS was made by **Umi Zoomi**.
 
-Special thanks to:
+Thanks to:
 
 - Hack Club
 - Stardance
-- Google Fonts (Josefin Sans)
-- The open-source web development community
+- Everyone who has helped me while I've been working on the project
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
